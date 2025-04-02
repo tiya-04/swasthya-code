@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background: #00796B;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#logo {
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: #00796B;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #b2dfdb;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #004D40;
+    color: white;
+    border-radius: 8px;
+    margin: 20px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.services, .about, .contact-form {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.services:hover, .about:hover, .contact-form:hover {
+    transform: scale(1.02);
+}
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+.services ul li {
+    padding: 10px;
+    background: #e0f2f1;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border 0.3s;
+}
+input:focus, textarea:focus {
+    border: 1px solid #00796B;
+}
+button {
+    background: #00796B;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #004D40;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.apply-section {
+    text-align: center;
+    padding: 30px;
+    background: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+#uni{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#uni:hover {
+    transform: scale(1.02);
+}
+
